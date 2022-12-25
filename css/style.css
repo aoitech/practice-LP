@@ -57,6 +57,10 @@
 /* ====================
 header
 ==================== */
+header {
+  padding: 20px 0;
+}
+
 .header-left {
   float: left;
   margin-top: 20px;
@@ -78,6 +82,26 @@ header
 .header-nav-item a {
   line-height: 36px;
   font-weight: bold;
+}
+
+/* ====================
+top
+==================== */
+.top {
+  background-image: url(../img/main-vsual-nontitle.png);
+  background-size: cover;
+}
+
+.top-title {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.top-subtitle {
+  text-align: center;
+  font-size: 18px;
 }
 
 /* ====================
@@ -160,4 +184,70 @@ footer {
 .copyright {
   float: right;
   color: #fff;
+}
+
+/* ====================
+レスポンシブ対応
+==================== */
+@media screen and (max-width:767px) {
+  .section-title {
+    font-size: 24px;
+  }
+
+  .header-left {
+    float: none;
+  }
+
+  .header-right {
+    float: none;
+  }
+
+  .header-title {
+    text-align: center;
+  }
+
+  .header-parent {
+    flex-wrap: wrap;
+
+  }
+
+  .header-nav-item {
+    margin-left: 10px;
+  }
+
+  .top-title {
+    font-size: 18px;
+  }
+
+  .top-subtitle {
+    font-size: 14px;
+  }
+
+  .section-parent {
+    display: block;
+  }
+
+  .img-item {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-right: initial;
+  }
+
+  .course-parent {
+    display: block;
+  }
+
+  .course-item {
+    width: 100%;
+  }
+
+  input[type="email"] {
+    max-width: 100%;
+  }
+
+  .copyright {
+    float: none;
+    text-align: center;
+    font-size: 10px;
+  }
 }
