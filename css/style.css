@@ -148,3 +148,16 @@ input[type="email"] {
 .btn-register {
   background-color: #ec6d64;
 }
+
+/* ====================
+footer
+==================== */
+footer {
+  background-color: #082b48;
+  padding: 20px 0;
+}
+
+.copyright {
+  float: right;
+  color: #fff;
+}
